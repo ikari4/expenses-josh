@@ -1,0 +1,154 @@
+/* styles.css */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #033f63;
+    background-color: #033f631a;
+}
+
+.inputRow {
+    display: flex;
+    width: 370px;
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#loginModal input {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#outerDiv {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    align-items: center;
+}
+
+.headerText {
+    font-size: 30px;
+    align-self: center;
+    margin-top: 15px;
+}
+
+.blueLine {
+    width: 370px;
+    color: #033f63;
+    margin: 0;
+}
+
+.yellowLine {
+    width: 370px;
+    border: none;
+    height: 5px;
+    background-color: #fedc97;
+    margin: 0;
+}
+
+#addDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#btnRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.input, .input option {
+    height: 40px;
+    font-size: 20px;
+    color: #033f63;
+    background-color: #033f631a;
+}
+
+button {
+    height: 40px;
+    width: 90px;
+    font-size: 20px;
+    background-color: #033f63;
+    color: #fedc97;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.saveBtn {
+    align-self: center;
+    margin-left: 5px;
+}
+
+.currencyWrapper {
+    position: relative;
+    width: 100%;
+}
+
+.currencyWrapper::before {
+    content: "$";
+    position: absolute;
+    font-size: 20px;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #033f63;
+}
+
+.currencyInput {
+    padding-left: 20px;
+}
+
+.dateDiv {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    align-items: center;
+}
+
+.dateDiv label {
+    width: 60px;
+}
+
+.expenseTable {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.expenseTable th, tr {
+    text-align: center;
+}
+
+.expenseTable td {
+    padding: 0 15px;
+}
+
+.dateLink {
+    color: #0a66c2;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.dateLink:hover {
+    color: #063a6b;
+}
+
+#displayDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#searchDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#editDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

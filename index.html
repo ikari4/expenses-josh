@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./expenses.png" type="image/png">
+    <link rel="apple-touch-icon" href="./expenses.png">
+    <link rel="mask-icon" href="./expenses.png " color="black">
+    <title>Expenses</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="loginModal" style="display:none">
+        <div class="inputRow">
+            <label for="inputEmail">email: </label>
+            <input id="inputEmail" type="email" placeholder="email" required>
+        </div>
+        <div class="inputRow">
+            <label for="inputPassword">password: </label>
+            <input id="inputPassword" type="password" placeholder="password" required>
+        </div>
+        <div class="inputRow">
+            <button id="loginBtn">Login</button>
+        </div>
+        <p id="loginError" style="color:red;"></p>
+    </div>
+    <div id="outerDiv">
+        <hr class="blueLine">
+        <hr class="yellowLine">
+        <hr class="blueLine">
+        <div id="addDiv"></div>
+        <hr class="blueLine">
+        <hr class="yellowLine">
+        <hr class="blueLine">
+        <div id="searchDiv"></div>
+        <div id="displayDiv"></div>
+        <hr class="blueLine">
+        <hr class="yellowLine">
+        <hr class="blueLine">
+        <div id="editDiv"></div>
+        <hr class="blueLine">
+        <hr class="yellowLine">
+        <hr class="blueLine">
+    </div>
+
+    <script src="./index.js"></script>    
+</body>
+</html>
